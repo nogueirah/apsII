@@ -1,0 +1,395 @@
+
+#entrada {
+    
+    width: 100%;
+    height: 300 px;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 180px;
+}
+
+.homeCad {
+    background-color: #000000;
+    width: 420px;
+    height: 300 px;
+    text-align: right;
+    margin: auto;
+    margin-top: 180px;
+    padding-right: 115px;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: calibri light;
+}
+
+
+form {
+    color: #fffa86;
+}
+
+#copy {
+    text-align: center;
+    color: #fff364
+}
+
+footer {
+    
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    min-height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    z-index: 2;
+}
+
+
+header h1 {
+    padding: 10px 0 0 10px;
+}
+
+header h1 a {
+    color: #333;
+}
+
+header ul {
+    padding: 15px 10px 0 0;
+}
+
+header li {
+    border-left: 1px solid #ccc;
+}
+
+header li:first-child {
+    border: none;
+}
+
+header li a {
+    display: block;
+    padding: 0 10px;
+    color: #999;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+header li a:hover {
+    color: #333;
+}
+
+input#control-nav {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.list-full,
+.list-full li,
+.list-auto,
+.list-auto li {
+    width: 100%;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.list-auto,
+.list-auto li {
+    width: auto;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+    margin-top: 100px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#vagas{
+  background-color: white;
+  border: 1px solid black;
+  width: 525px;
+  height:208px;
+  margin: auto;
+  padding: 6.5px;
+  float: left;
+}
+.vagas_d{
+border: 2px solid black;
+width: 30px;
+height: 45px;
+float: left;
+margin-right: 4px;
+margin-bottom: 4px;
+
+}
+#reservado{
+  border: 2px solid black;
+  background-color: red;
+  width: 30px;
+  height: 45px;
+  float: left;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  
+  }
+
+  #livre{
+    border: 2px solid black;
+    background-color: white;
+    width: 30px;
+    height: 45px;
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    }
+
+    #cima {
+      padding: 10px 10px;
+      width: 100px;
+      height: 208px;
+      float: left;
+      margin-left: 20px;
+      background-color: rgb(255, 242, 187);
+    }
+    
+    #pRes{
+      margin-left: 400px;
+    }
+    #btn{
+      
+      right: 450px;
+      top: 220px;
+      background-color: rgb(255, 255, 255);
+      border: 2px solid rgb(248, 232, 0);
+      border-radius: 10px;
+      color: rgb(0, 0, 0);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-size: 20px;
+      transition-duration: 0.4s;
+    }
+    #btn:hover {
+      background-color: rgb(248, 255, 148);
+      color: rgb(0, 0, 0);
+    }
+
+    
+.formReserva{
+  width: 100%;
+  font-size: 25px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#btnReserva {
+  background-color: white;
+  border: 2px solid rgb(255, 238, 1);
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  margin: auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+  
+}
+#btnReserva:hover {
+  background-color: rgb(244, 255, 97);
+  color: black;
+}
+
+#btnEdita {
+  background-color: white;
+  border: 2px solid rgb(255, 238, 1);
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  margin: auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+  
+}
+#btnEdita:hover {
+  background-color: rgb(244, 255, 97);
+  color: black;
+}
+
+
+
+#btnOcupar {
+  background-color: white;
+  border: 2px solid rgb(255, 238, 1);
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#btnOcupar:hover {
+  background-color: rgb(244, 255, 97);
+  color: black;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.text{
+  font-size: 26pt;
+  font-weight: bold
+}
+
+.btnL {
+   background-color: #1c87c9;
+         border: none;
+         color: white;
+         padding: 10px 17px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 18px;
+         margin: 4px 2px;
+         cursor: pointer;
+  
+  
+}
+.btnL:hover {
+  background-color: #1c67c9;
+  color: black;
+}
+
+.container{
+  width: 100%;
+  font-size: 25px;
+  margin: auto;
+  margin-top: 150px;
+  color: white;
+}
+
+
